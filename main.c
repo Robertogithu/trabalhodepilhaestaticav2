@@ -33,12 +33,12 @@ int main() {
          D1.peso = 3.5;
 
          DOCUMENTO D2;
-         strcpy (D2.titulo, "Texto1");
+         strcpy (D2.titulo, "Texto2");
          D2.valor = 8;
          D2.peso = 4.9;
 
          DOCUMENTO D3;
-         strcpy (D3.titulo, "Texto1");
+         strcpy (D3.titulo, "Texto3");
          D3.valor = 9;
          D3.peso = 99.99;
 
@@ -48,11 +48,11 @@ int main() {
          push(&minhaPilha, D2);
          push(&minhaPilha, D3);
 
-        // imprimirPilha(&minhaPilha);
+         imprimirPilha(&minhaPilha);
 
          pop(&minhaPilha);
 
-        // imprimirPilha(&minhaPilha);
+         imprimirPilha(&minhaPilha);
 
          limpaPilha(&minhaPilha);
 
